@@ -1,0 +1,38 @@
+.logo {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 45px;
+}
+.card {
+  width: 25vw;
+  height: 20vw;
+  text-align: center;
+  border-radius: 25px !important;
+  background-color: #e3ebee !important;
+  transition: background-color 0.5s;
+  box-shadow: 1px 1px 1px black;
+}
+.card:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(5, 87, 211, 0.904) 0%,
+    rgba(64, 52, 238, 0.692) 40%,
+    rgba(28, 60, 243, 0.7) 100%
+  ) !important;
+  background-repeat: no-repeat !important;
+  background-size: 200% 100% !important;
+  transition: background-size 1s, background-color 1s !important;
+  color: white !important;
+}
+.titre {
+  size: 50px;
+  color: rgb(43, 40, 40);
+  text-decoration: double;
+  font-weight: 700;
+  padding: 10px 0px;
+  text-shadow: 1px 1px white;
+}
+
+.card:hover .par {
+  color: rgb(255, 255, 255) !important;
+}

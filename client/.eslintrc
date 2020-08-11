@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb-typescript", "prettier/@typescript-eslint"],
+  "plugins": ["import"],
+  "rules": {
+    "react/button-has-type": 0,
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "import/prefer-default-export": 0,
+    "implicit-arrow-linebreak": 0,
+    "no-underscore-dangle": 0
+  },
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": true,
+      "typescript": {}
+    }
+  }
+}

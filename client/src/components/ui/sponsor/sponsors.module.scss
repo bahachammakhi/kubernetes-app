@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 50px;
+}
+.logos {
+  padding: 3%;
+  padding-left: 20vw;
+}
+.img {
+  width: 10vw;
+  padding-left: 3%;
+}
+.title {
+  text-align: center;
+  color: #1b3047;
+  letter-spacing: .025em;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.15;
+  padding-bottom: 2%;
+}
+.description {
+  text-align: center;
+}
+.underlinea {
+  position: relative;
+}
+
+.underlinea:before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  bottom: 1%;
+  left: 37vw;
+  background-color: #f00621;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.underlinea:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}

@@ -1,0 +1,45 @@
+.logo {
+  width: 120px;
+  height: 50px;
+  // background: rgba(255, 255, 255, 0.2);
+  // margin: 16px 24px 16px 0;
+  float: left;
+}
+.logoimg {
+  width: 10vw;
+  height: 30px;
+}
+.logotitle {
+  color: #193f85;
+}
+.dropdown {
+  padding: 5%;
+}
+.navmenuitem {
+  color: #193f85 !important;
+}
+.navmenuitem:hover {
+  color: #5479be !important;
+  border-bottom: 2px solid #193f85 !important;
+}
+.navmenuitem::first-letter {
+  text-transform: capitalize;
+}
+.selecteditem::first-letter {
+  text-transform: capitalize;
+}
+.selecteditem {
+  color: #5479be !important;
+  border-bottom: 2px solid #193f85 !important;
+}
+.menu {
+  position: absolute;
+  right: 20vw;
+}
+.name {
+  position: absolute;
+  right: 3vw;
+}
+.name::first-letter {
+  text-transform: capitalize;
+}
